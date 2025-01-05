@@ -706,16 +706,18 @@ input[type = text]{
      .aside .nav-toggler.open
      {
      left: 300px;
+    
      }
 
      .section
      {
       left: 0;
+      position: relative;
      }
-     .section.open
+     /* .section.open
      {
         left: 270px
-     }
+     } */
 
     .about .about-content .personal-info .info-item p span{
         display: block;
