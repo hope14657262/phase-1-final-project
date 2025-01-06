@@ -22,6 +22,7 @@ function setActiveStyle(color)
         else
     {
         style.setAttribute("disabled","true");
+        document.querySelector(".style-switcher").classList.remove("open");
     }
     })
     

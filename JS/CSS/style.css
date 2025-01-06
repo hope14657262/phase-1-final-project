@@ -277,6 +277,12 @@ top: 0;
     margin-right: 15px;
 }
 /* ========================================================Home csss======================================================================================== */
+.phone-img img
+{
+    display: none;
+}
+
+
 .home{
     min-height: 100vh;
     display: flex;
@@ -712,7 +718,7 @@ input[type = text]{
      .section
      {
       left: 0;
-      position: relative;
+      /* position: relative; */
      }
      /* .section.open
      {
@@ -740,6 +746,17 @@ input[type = text]{
     .home .home-img{
      display: none;
     }
+    .phone-img img
+     {
+    display: block;
+    max-width: 30%;
+    flex: 0 0 40%;
+    margin-left: 300px;
+    text-align: center;
+    position: relative;
+      }
+      
+
 }
 @media(max-width:767px){
     .contact .contact-form .col-6,
