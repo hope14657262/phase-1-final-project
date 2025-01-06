@@ -750,7 +750,7 @@ input[type = text]{
     display: block;
     max-width: 30%;
     flex: 0 0 40%;
-    margin-left: 100px;
+    margin-left: 200px;
     text-align: center;
     position: relative;
       }
